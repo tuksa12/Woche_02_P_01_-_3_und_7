@@ -9,7 +9,7 @@ public class ThreeAndSeven {
 		int sum = 0;
 
 		if (n >= 0) {
-			while (n > 2) {
+			while (n > 0) {
 				if (n % 3 == 0 || n % 7 == 0) {
 					sum += n;
 				}
@@ -21,4 +21,4 @@ public class ThreeAndSeven {
 			write("Fehler: n>=0 erwartet!");
 
 	}
-}
+}//Trocar o loop de lugar. Ao inves de colocar depois do if, colocar depois do else.
